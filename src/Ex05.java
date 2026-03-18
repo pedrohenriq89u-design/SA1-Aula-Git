@@ -10,10 +10,10 @@ public class Ex05 {
         IO.println("Quanto você conseguiu guardar?");
         guardado = sc.nextDouble();
         if (guardado >= 500) {
-            IO.println(" Sua meta foi atingida e você guardou mais: ");
-            IO.println(guardado - 500);
+            IO.println(" Sua meta foi atingida ");
         } else if (guardado < 500) {
-            IO.println("Sua meta não foi atingida");
+            IO.println("Sua meta não foi atingida e faltou:");
+            IO.println(guardado - 500);
 
         }
     }
