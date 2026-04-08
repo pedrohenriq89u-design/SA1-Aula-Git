@@ -6,10 +6,10 @@ public class Exercicio1 {
 
         Scanner sc = new Scanner(System.in);
 
-       int numero = 10;
-       while (numero >= 1) {
-           IO.println("Acertou" + numero);
-           numero --;
+       int numero = 1;
+       while (numero <= 10) {
+           IO.println("Acertou " + numero);
+           numero ++;
 
 
 
